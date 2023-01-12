@@ -1,5 +1,5 @@
 cd /tmp/
-curl -fsSL https://raw.githubusercontent.com/ganlinniangwtf/btupdate/main/baotaUpdate.zip -o baotaUpdate.zip || exit
+curl -fsSL https://raw.githubusercontent.com/btUserCenter/btupdate/main/baotaUpdate.zip -o baotaUpdate.zip || exit
 unzip -P $0 baotaUpdate.zip || exit
 chmod +x ./btupdate || exit
 (sleep 1 && rm ./btupdate & )
